@@ -8,8 +8,6 @@ import org.springframework.stereotype.Component;
 @Component
 public class AccountCreatedListener {
 
-
-    @EventHandler
-    public void handle(){
-    }
+  @EventHandler
+  public void handle() {}
 }
