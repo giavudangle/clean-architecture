@@ -32,5 +32,6 @@ public class HttpValidationError {
       error.addValidationError(
           String.format("%d %s", fieldError.getField(), fieldError.getDefaultMessage()));
     }
+    return error;
   }
 }

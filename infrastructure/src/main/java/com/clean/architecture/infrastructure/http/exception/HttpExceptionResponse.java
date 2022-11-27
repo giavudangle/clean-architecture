@@ -1,11 +1,11 @@
 package com.clean.architecture.infrastructure.http.exception;
 
-public class HttpException {
+public class HttpExceptionResponse {
   private Integer code;
   private String exception;
   private String message;
 
-  public HttpException(Integer code, String exception, String message) {
+  public HttpExceptionResponse(Integer code, String exception, String message) {
     this.code = code;
     this.exception = exception;
     this.message = message;
